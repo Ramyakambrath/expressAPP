@@ -1,0 +1,140 @@
+
+.App {
+  text-align: center;
+  background-color:beige;
+  height:100%;
+  width:100%;
+  position:fixed;
+
+  /* display:flex;
+  flex-direction: column;
+  align-items: stretch; */
+  
+  
+ 
+ 
+}
+
+
+
+ .container {
+  text-align: center;
+  background-color:rgb(212, 212, 216);
+  padding-top:5%;
+  padding-left:5%;
+  padding-right:5%;
+  padding-bottom:5%;
+  display:inline-flex;
+  flex-direction: column;
+ 
+  background:url(/assets/cloudy-sky.jpg) no-repeat;
+
+  margin: 10% 20% 10% 20%;
+  
+
+ 
+
+}
+.header,.instructions,.zipcodeinput{
+  text-align: center;
+  position:relative;
+  flex-grow:1;
+
+}
+.weatherContainer{
+  margin-top: 5%;;
+ 
+  /* padding:6% 10% 5% 40%; */
+  display:flex; 
+  justify-content: center;
+
+  
+
+
+  
+  
+ 
+  
+}
+.dayContainer{
+  background-color:#7D82F5;
+  /* padding-left:30px; */
+  margin-top: 5%;;
+  align-items: stretch;
+  display:flex;
+  border: solid #5B6DCD 10px;
+  
+}
+fragment{
+  background-color:#7D82F5;
+  display:flex;
+  padding-left:5%;
+  flex-grow: 1;
+ 
+  
+  /* justify-content:stretch */
+}
+
+.weatherContainerDay{
+ 
+  /* float:left; */
+  /* padding-left:5px; */
+  width:200px; 
+   margin-top:3%;
+  margin-bottom:3%;
+  
+  display:flex;
+
+  flex-grow: 1;
+  
+  
+}
+
+.homeBtn{
+  padding:5%;
+  background-color:rgb(35, 35, 65);
+  color:white;
+}
+.weatherCardContainer{
+  padding:5% 5% 5% 5%;
+  background-color:#4148F2;
+  color:white;
+  width:200px;
+
+  /* display:flex;
+  align-items: center;
+        justify-content: center;
+        flex-direction: row; */
+  
+  
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
